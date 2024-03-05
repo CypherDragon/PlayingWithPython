@@ -24,3 +24,12 @@ threes = list(range(3,31,3))
 for three in threes:
     print(three)
 
+# 4-8
+cubes = list(range(1,11))
+for cube in cubes:
+    cubed = cube**3
+    print(cubed)
+
+# 4-9
+cubes = [cube**3 for cube in range(1,11)]
+print(cubes)
